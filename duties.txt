@@ -1,0 +1,33 @@
+=====Project phase 2 duty=====
+
+==Yuqing Feng==
+1. Refactoring all the improper variables and functions, making the name meaningful and easy to understand. 
+2. Reduced the duplicated code like unnecessary if statement and improved the docstring.
+3. Changed the Sku number type from Integer to String and updated the related functions and variables in other files.
+4. Completed the test including WarehousePickingTest, WarehouseTest, DefaultEventTest OrderEventTest, and LoaderEventTest to get full coverage. 
+5. Developed the check style and fixed the docstring.
+6. Fixed the MySystemTest, method loading and ReadyDistinguish.
+
+
+==Feng Chen==
+1. Implement Log instead of print statement in MySystem to log required information. 
+2. Combine new added factory design pattern with command design pattern in EventProcessor. 
+3. Create new class Simulator to replace Demo. The Simulator is for user to put in event files and other set up files.
+4. Add new class Worker in warehouse package.
+5. Keep update of main method to fit changes.
+6. Add ready events in my orders.txt and add ReadyEvent class in event package.
+7. Write and implement events which pickers make mistakes.
+8. Solve consoleHandler logs information twice in console problem.
+
+==Fanxuan Guo==
+1. Deleted some unused getter and setter in MySystem.java.2. Rewrote the MySystemTest.java, changed some methods in MySystem.java and Simulator.java3. Changed some tests in TruckTest.java, also moved frontpallet and backpallet from MySystem to Truck.4. Deletes the tear down in the test except dir.5. Fixed some error in first 8 tests for warehouse.package.6. Added WorkTest.java for new class worker.
+
+==Luya Wang==
+1. Rewrote all classes in event package.
+2. Rewrote replenishing method for replenisher event in MySystem.java.
+3. Added scan and rescan event for loader, updating methods for those event in MySystem.java.
+4. Added visually inspection, scan and rescan event for sequencer and rewrote corresponding methods for those event in MySystem.java.
+5. Fixed all checkstyle error in event package and some error in warehouse package.
+6. Created Junit suit for all tests.
+7. Rewrote test for SequencerEvent and added test cases for other tests, then updated the MockMySystem.java.
+8. Deleted unused statements in all classes.
